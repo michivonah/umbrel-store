@@ -2,11 +2,11 @@ version: "3.7"
 
 services:
 
-  app_proxy:
-    environment:
+  #app_proxy:
+    #environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: neodym-unifi-michivonah_server_1
-      APP_PORT: 8443
+      #APP_HOST: neodym-unifi-michivonah_server_1
+      #APP_PORT: 8443
     
   server:
     image: michivonah/unifi-docker

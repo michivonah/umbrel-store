@@ -4,7 +4,7 @@ name: UniFi Network Application
 tagline: Software for managing UniFi Devices
 icon: https://raw.githubusercontent.com/michivonah/umbrel-store/master/neodym-unifi-michivonah/michivonah.png
 category: Development
-version: "1.0.0"
+version: "1.1.0"
 port: 8443
 description: >-
   A software for managing your UniFi Devices.

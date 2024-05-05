@@ -18,7 +18,7 @@ support: https://github.com/michivonah/umbrel-store/issues
 gallery:
   - https://raw.githubusercontent.com/michivonah/umbrel-store/master/neodym-unifi-jacobalberty/screenshot.jpg
 releaseNotes: >-
-  Update to 8.1.113
+  Update to 8.1.127
 dependencies: []
 path: ""
 defaultUsername: ""

@@ -2,11 +2,11 @@ version: "3.7"
 
 services:
 
-  app_proxy:
-    environment:
+  #app_proxy:
+    #environment:
       # The format here is: <app-id>_<docker-service-name>_1
-      APP_HOST: neodym-unifi-jacobalberty_server_1
-      APP_PORT: 8443
+      #APP_HOST: neodym-unifi-jacobalberty_server_1
+      #APP_PORT: 8443
     
   server:
     image: jacobalberty/unifi
@@ -17,12 +17,9 @@ services:
       - 3478:3478/udp
       - 6789:6789
     volumes:
-      - unifi:/unifi
+      - ./unifi2:/unifi
     environment:
       - TZ=Europe/Zurich
     user: "1000:1000"
     init: true
 
-  volumes:
-    unifi:
-      name: unifi

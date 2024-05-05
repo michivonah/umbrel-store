@@ -1,16 +1,16 @@
 manifestVersion: 1
-id: neodym-unifi-jacobalberty
+id: neodym-unifi-michivonah
 name: UniFi Network Application
 tagline: Software for managing UniFi Devices
-icon: https://raw.githubusercontent.com/michivonah/umbrel-store/master/neodym-unifi-jacobalberty/jacobalberty.png
+icon: https://raw.githubusercontent.com/michivonah/umbrel-store/master/neodym-unifi-michivonah/michivonah.png
 category: Development
 version: "1.0.0"
 port: 8443
 description: >-
   A software for managing your UniFi Devices.
 
-developer: jacobalberty
-website: https://github.com/jacobalberty/unifi-docker
+developer: michivonah
+website: https://github.com/michivonah/unifi-docker
 submitter: michivonah
 submission: https://github.com/michivonah/umbrel-store
 repo: https://github.com/michivonah/umbrel-store
